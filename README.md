@@ -7,8 +7,8 @@ Methods:
 --------
   open( filename [, params ] )
   
-      filename: string containing file path to open or to be created
-      params: object containing arguments for OpenTextFile method of FileSystemObject object
+    filename: string containing file path to open or to be created
+    params: object containing arguments for OpenTextFile method of FileSystemObject object
 
   open() returns an object with following methods:
     
@@ -21,12 +21,12 @@ Methods:
 Examples:
 ---------
 
-create a file:
+  create a file:
     fso.open('file.txt')
 
-write to a file:
+  write to a file:
     fso.open('file.txt').write('Hello world');
 
-append a string and read the content:
+  append a string and read the content:
     fso.open('file.txt').append('!!!').prepend('---').read();
     // this will return '---Hello world!!!'
