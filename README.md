@@ -22,11 +22,14 @@ Examples:
 ---------
 
   create a file:
+  
     fso.open('file.txt')
 
   write to a file:
+  
     fso.open('file.txt').write('Hello world');
 
   append a string and read the content:
+  
     fso.open('file.txt').append('!!!').prepend('---').read();
     // this will return '---Hello world!!!'
