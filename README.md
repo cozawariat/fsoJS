@@ -1,7 +1,7 @@
 fsoJS
 =====
 
-File System Object wrapper for simple file manipulation.
+FileSystemObject wrapper for simple file manipulation.
 
 Methods:
 --------
