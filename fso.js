@@ -45,6 +45,7 @@ var fso = {
 				format: b.format || 0
 			};
 			fso.p = b;
+			if ( !!fso.x.f ) { fso.x.f.Close(); fso.x.f = null; }
 			fso.x.f = fso.a.OpenTextFile(fso.n, fso.p.mode, fso.p.create, fso.p.format);
 		}
 		return fso.x;
